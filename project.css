@@ -1,0 +1,67 @@
+button{
+    padding: 20px;
+    /* background-color: #d4bb66; */
+    background-color: rgb(149 149 149);
+    
+    
+    /* height: 1000px; */
+   
+    font-size: 25px;
+    color: black;
+    /* border: 10px solid black; */
+    border-radius: 30px;
+    margin: 50px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    transform: scale(1.05);
+    border-color: #fff9;
+}
+    button:hover{
+        background-color: rgb(173, 113, 2);
+        transform: scale(1.1);
+        border-color: #fff9;
+    }
+
+    
+
+
+body{
+    text-align: center;
+    background-image: url(pngtree-news-red-and-blue-stripe-tv-background-picture-image_1590788.jpg);
+    background-size: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-size: 30px;
+}
+.text{
+    font-size: 70px;
+}
+.p1 {
+    width: 600px;
+}
+.p2{
+    width: 600px;
+    float: right;
+    margin-bottom: 400px;
+}
+img{
+    width: 500px;
+    padding: 20px;
+    margin-top: 30px;
+}
+#demo{
+    /* background-color: #ed162a; */
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    width: 60%;
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 40px;
+}
+

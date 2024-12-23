@@ -1,0 +1,86 @@
+.weather{
+    background-color: #639fff;
+    text-align: center;
+    font-weight: bold;
+    font-size: 70px;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    color: navy;
+    margin-top: 10px;
+}
+body{
+    background-color:#ccdfff ;
+}
+.b{
+    float: left ;
+    margin: 20px;
+    background-color: navy;
+    font-size: 25px;   
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    transform: scale(1.05);
+    border-color: #fff9;
+    
+}
+.b:hover{
+    transform: scale(1.1);
+}
+a:hover{
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+table{
+    text-transform: capitalize;
+    margin: -1px;
+    border-spacing: 1px;
+    font-size: 30px;
+    text-align: center;
+}
+table td{
+    border: 9px solid;
+    background-color: rgb(216, 216, 216);
+    border-color: rgb(216, 216, 216);
+}
+table th{
+    border: 10px solid;
+    background-color: #639fff;
+    border-color: #639fff;
+    color: white;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: navy;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  .menue{
+     background-color: rgb(0, 0, 78);
+  }
+  .search{
+    float: right;
+  }

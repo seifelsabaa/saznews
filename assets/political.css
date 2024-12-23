@@ -1,0 +1,100 @@
+body{
+    background-color: rgb(179, 158, 194);
+}
+.political{
+    background-color: rgb(62, 0, 104);
+    text-align: center;
+    font-weight: bold;
+    font-size: 70px;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    color: white;
+    margin-top: 10px;
+}
+.b{
+    float: left ;
+    margin: 20px;
+    background-color: rgb(179, 158, 194); 
+    font-size: 25px;    
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    transform: scale(1.05);
+    border-color: #fff9;
+}
+.b:hover{
+    transform: scale(1.1);
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+img{
+    height: 250px;
+    width: 300px;
+}
+
+.user{
+    height: 250px;
+    width: 300px;
+    background-color: #eee;
+    text-align: center;
+    font-size: 60px;
+    border-bottom: 5px solid rgb(179, 158, 194);
+    float: left;
+    padding: 10px;
+    margin-right: 20px;
+}
+.one{
+    width: 900px;
+    float: left;
+    background-color: #eee;
+    padding: 10px;
+    height: 250px;
+    position: relative;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+.one::after{
+    content: "";
+    position: absolute;
+    background-color: rgb(57, 0, 95);
+    width: 5px;
+    height: 100%;
+    right: 0;
+    top: 0;
+}
+.parent{
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(43, 0, 71);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  .menue{
+     background-color: rgb(30, 0, 49);
+  }
